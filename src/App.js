@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import GridLayout from "./components/gridLayout";
+import jsonData from "./data/data.json";
+import { ApplicationContext } from "./applicationContext";
+import { useState } from "react";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [user, setUser] = useState({
+        name: "Jeremy Robson",
+    });
+
+    return (
+        <div className="app">
+            <ApplicationContext.Provider value={{ user, setUser }}>
+                <GridLayout data={jsonData} />
+            </ApplicationContext.Provider>
+        </div>
+    );
 }
 
 export default App;

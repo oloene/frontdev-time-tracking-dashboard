@@ -1,0 +1,89 @@
+.user-card {
+    position: relative;
+    min-height: 300px;
+    height: 100%;
+    width: 100%;
+}
+
+.user {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blue);
+    border-radius: 20px;
+    padding: 2.5rem 2rem;
+    height: 60%;
+}
+
+.user-selection {
+    position: absolute;
+    bottom: 0;
+    height: 60%;
+    width: 100%;
+    background-color: var(--dark-blue);
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5rem;
+    color: var(--pale-blue);
+    padding-top: 7rem;
+}
+
+.user-selection-item {
+    margin-left: 2.5rem;
+}
+
+.user-selection-item.active,
+.user-selection-item:hover {
+    color: #fff;
+}
+
+.user-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff;
+    margin-bottom: 2rem;
+}
+
+.user-icon img {
+    min-width: 100%;
+    height: 100%;
+}
+
+.user-text > #report {
+    font-size: 0.9rem;
+    font-weight: var(--font-light);
+}
+.user-text > #name {
+    font-size: 2.2rem;
+}
+
+/* SCREEN MEDIUM */
+@media only screen and (max-width: 1160px) {
+    .user {
+        flex-direction: row;
+        align-items: center;
+        padding: 5rem 3rem;
+    }
+
+    .user-icon {
+        margin-bottom: 0;
+        margin-right: 1.5rem;
+    }
+
+    .user-selection {
+        flex-direction: row;
+        padding: 7rem 3rem 0 3rem;
+        justify-content: space-between;
+    }
+
+    .user-selection > * {
+        margin-left: 0;
+    }
+}
