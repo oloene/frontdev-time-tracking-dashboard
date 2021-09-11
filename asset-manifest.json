@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/frontdev-time-tracking-dashboard/static/css/main.bfed2ce5.chunk.css",
+    "main.js": "/frontdev-time-tracking-dashboard/static/js/main.ac19f330.chunk.js",
+    "main.js.map": "/frontdev-time-tracking-dashboard/static/js/main.ac19f330.chunk.js.map",
+    "runtime-main.js": "/frontdev-time-tracking-dashboard/static/js/runtime-main.3fe2afab.js",
+    "runtime-main.js.map": "/frontdev-time-tracking-dashboard/static/js/runtime-main.3fe2afab.js.map",
+    "static/js/2.11dc4541.chunk.js": "/frontdev-time-tracking-dashboard/static/js/2.11dc4541.chunk.js",
+    "static/js/2.11dc4541.chunk.js.map": "/frontdev-time-tracking-dashboard/static/js/2.11dc4541.chunk.js.map",
+    "index.html": "/frontdev-time-tracking-dashboard/index.html",
+    "static/css/main.bfed2ce5.chunk.css.map": "/frontdev-time-tracking-dashboard/static/css/main.bfed2ce5.chunk.css.map",
+    "static/js/2.11dc4541.chunk.js.LICENSE.txt": "/frontdev-time-tracking-dashboard/static/js/2.11dc4541.chunk.js.LICENSE.txt",
+    "static/media/icon-ellipsis.a57a4ac8.svg": "/frontdev-time-tracking-dashboard/static/media/icon-ellipsis.a57a4ac8.svg",
+    "static/media/styles.css": "/frontdev-time-tracking-dashboard/static/media/icon-work.a3f124e5.svg",
+    "static/media/image-jeremy.71cd41f1.png": "/frontdev-time-tracking-dashboard/static/media/image-jeremy.71cd41f1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3fe2afab.js",
+    "static/js/2.11dc4541.chunk.js",
+    "static/css/main.bfed2ce5.chunk.css",
+    "static/js/main.ac19f330.chunk.js"
+  ]
+}
